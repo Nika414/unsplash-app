@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.App-search-element {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 30px 0;
+}
+
+.App-cards {
+  width: calc(50vw + 185px);
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}

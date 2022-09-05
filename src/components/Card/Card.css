@@ -1,0 +1,26 @@
+.Card {
+    width: 280px;
+    height: 400px;
+    text-align: left;
+}
+
+.Card-description {
+    height: 70px;
+    width: 280px;
+    font-size: 12px;
+    text-align: left;
+
+}
+
+.Card-img {
+    width: 280px;
+    height: 320px;
+    object-fit: cover;
+}
+
+.Card-author {
+    width: 280px;
+    height: 18px;
+    font-size: 16px;
+
+}
