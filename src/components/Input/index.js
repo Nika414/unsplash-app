@@ -1,9 +1,9 @@
 import './Input.css';
 
-function Input(props) {
+function Input({placeholder, handleChange}) {
   return (
     <div >
-      <input type="text" className="Input" placeholder={props.placeholder} onChange={props.handleChange}></input>
+      <input type="text" className="Input" placeholder={placeholder} onChange={handleChange}></input>
     </div>
   );
 }

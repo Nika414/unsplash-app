@@ -1,11 +1,11 @@
 import './Card.css';
 
-function Card(props) {
+function Card({author, src, alt, title}) {
     return (
         <div className="Card">
-            <h2 className="Card-author">{props.author}</h2>
-            <img className="Card-img" src={props.src} alt={props.alt} />
-            <p className="Card-description">{props.title}</p>
+            <h2 className="Card-author">{author}</h2>
+            <img className="Card-img" src={src} alt={alt} />
+            <p className="Card-description">{title}</p>
 
         </div>
     );

@@ -13,7 +13,8 @@
   display: flex;
   margin: 0 auto;
   flex-direction: row;
-  justify-content: space-between;
-  row-gap: 20px;
+  justify-content: center;
+  gap: 22px;
+  row-gap: 15px;
   flex-wrap: wrap;
 }

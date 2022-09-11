@@ -3,13 +3,12 @@
     height: 400px;
     text-align: left;
 }
-
-.Card-description {
-    height: 70px;
+.Card-author {
     width: 280px;
-    font-size: 12px;
-    text-align: left;
-
+    height: 18px;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 7px;
 }
 
 .Card-img {
@@ -18,9 +17,14 @@
     object-fit: cover;
 }
 
-.Card-author {
+.Card-description {
+    min-height: 70px;
+    max-height: fit-content;
     width: 280px;
-    height: 18px;
-    font-size: 16px;
-
+    font-size: 12px;
+    text-align: left;
+    margin: 0;
 }
+
+
+
