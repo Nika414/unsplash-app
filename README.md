@@ -1,6 +1,8 @@
 # Проект unsplash-app
 
 Поиск фотографий с unsplash (бесплатный веб-сервис доступа к базе стоковых фотографий).
+### Ссылка на GitHub Pages
+[Ссылка на GitHub Pages](https://nika414.github.io/unsplash-app/)
 
 Учебный проект для проработки тем:
 * Create React App
