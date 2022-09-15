@@ -3,6 +3,7 @@
     height: 400px;
     text-align: left;
 }
+
 .Card-author {
     width: 280px;
     height: 18px;
@@ -12,9 +13,13 @@
 }
 
 .Card-img {
+    position: relative;
     width: 280px;
     height: 320px;
     object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .Card-description {
@@ -26,5 +31,7 @@
     margin: 0;
 }
 
-
-
+.Card-img:hover {
+    cursor: pointer;
+    opacity: 0.5
+}

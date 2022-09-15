@@ -20,7 +20,8 @@ function App() {
             src: item.urls.regular,
             alt: item.alt_description,
             title: item.description,
-            author: item.user.name
+            author: item.user.name,
+            html: item.links.html
           }));
           setCards(result);
         })
